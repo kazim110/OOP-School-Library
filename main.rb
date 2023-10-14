@@ -13,8 +13,8 @@ end
 
 def execute_choice(app, choice)
   actions = {
-    '1' => -> { app.list_books },
-    '2' => -> { app.list_people },
+    '1' => -> { app.list_book },
+    '2' => -> { app.list_peoples },
     '3' => -> { app.create_person },
     '4' => -> { app.create_book },
     '5' => -> { app.create_rental },
